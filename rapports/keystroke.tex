@@ -1,0 +1,50 @@
+\documentclass[a4paper,11pt]{report}
+
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{changepage}
+%\usepackage{fullpage}
+
+\begin{document}
+
+\title{\textbf{Distribution Neutre de Sujets}\\Keystroke}
+\author{Tristan Cossin, Morgan Fouque, Guilhem Trauchessec}
+
+
+\begin{document}
+\maketitle
+
+La représentation Keystroke est effectuée sur une base de 3 personnes et 3 sujets à évaluer. N'ayant pu trouver un équivalent à notre application, une analyse plus subjective a été faite.
+
+\section*{Keystroke}
+
+Pour commencer, il faut évaluer chaque étudiant en lui attribuant une note puis faire la même chose avec chaque sujet. Après ça, il faut se rendre dans valider et si tout les critères sont remplis, l'utilisateur clique sur valider, ce qui lui propose ensuite un premier choix qui peut être accepté ou refusé. Si le choix est refusé, un nouveau lui sera proposé jusqu'à ce qu'il en accepte un.
+\newline
+
+\newline La représentation Keystroke suivante a donc été créée :
+\newline
+
+\begin{adjustwidth}{2cm}{}
+MHPK (clic sur le bouton « Etudiants ») 
+\newline+ PK (clic sur un etudiant)
+\newline+ MHPK (clic sur une note)
+\newline+ PK (clic sur un etudiant)
+\newline+ MHPK (clic sur une note)
+\newline+ PK (clic sur un etudiant)
+\newline+ MHPK (clic sur une note)
+\newline+ MHPK (clic sur le bouton « Sujet »)
+\newline+ PK (clic sur un sujet)
+\newline+ MHPK (clic sur une note)
+\newline+ PK (clic sur un sujet)
+\newline+ MHPK (clic sur une note)
+\newline+ PK (clic sur un sujet)
+\newline+ MHPK (clic sur une note)
+\newline+ MHPK (clic sur le bouton « Valider »)
+\newline+ HPK (clic sur valider)
+\newline+ MHPK (clic sur accepter ou refuser)
+\newline= 38,80s
+
+\end{adjustwidth}
+
+\end{document}
